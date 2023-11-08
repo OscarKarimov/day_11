@@ -1,0 +1,39 @@
+footer {
+	background-color: #1D1E25;
+}
+
+.footer_inner {
+	display: flex;
+	box-sizing: border-box;
+	padding-top: 62px;
+	padding-bottom: 62px;
+}
+
+.logo_block {
+	width: 154px;
+}
+
+.logo_block img {}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	width: 154px;
+}
+.logo_icon{
+	margin-bottom: 83px;
+}
+.social .logo1 img{
+	width: 147px;
+	height: 24px;
+	flex-shrink: 0;
+	object-fit: contain;
+	
+}
+.social{
+	display: flex;
+	justify-content: space-between;
+}
+.social a {
+	display: inline-block;
+}

@@ -1,0 +1,49 @@
+header {
+	padding-top: 69px;
+	padding-bottom: 120px;
+
+}
+
+.header_inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_logo {}
+
+.header_logo img {
+	width: 147px;
+	height: 24px;
+	object-fit: contain;
+}
+
+.header_links {
+	display: flex;
+	align-items: center;
+}
+
+.header_links li {
+	margin-left: 32px;
+}
+
+.header_links li:first-child {
+	margin-left: 0px;
+}
+
+.header_links a {
+	color: #242D52;
+	font-family: Be Vietnam Pro;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	transition: all ease 0.5s;
+}
+.header_links a:hover{
+	opacity: 0.5;
+}
+.header_btn {}
+
+
+

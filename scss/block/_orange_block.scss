@@ -1,0 +1,46 @@
+section {}
+
+.orange_block {
+	background-image: url(/images/orange/bgi.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 62px 165px;
+	box-sizing: border-box;
+	padding-bottom: 62px;
+
+}
+
+.orange_block_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.orange_title {
+	width: 445px;
+}
+
+.orange_title .title {
+	color: #FFF;
+	font-family: Be Vietnam Pro;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 44px;
+	letter-spacing: -0.714px;
+}
+.orange_btn{
+
+}
+.orange_btn a{
+	color: #F3603C;
+		font-family: Be Vietnam Pro;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		background-color: #fff;
+		padding: 13px 32px;
+		border-radius: 28px;
+}
